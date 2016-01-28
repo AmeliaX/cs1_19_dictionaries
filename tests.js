@@ -61,7 +61,7 @@ $(document).ready(function() {
 
     test1("#showDate", showDate, {year: 2016, month: 01, day: 20, hour: 13, minute: 41, second: 0}, "2016-01-20T13:41:00");
     test1("#showDate", showDate, {year: 1970, month: 01, day:01, hour: 0, minute: 0, second: 0}, "1970-01-01T00:00:00");
-    test1("showDate", showDate, {year: 1969, month: 7, day: 24, hour: 16, minute: 50, second: 35}, "1969-07-24T16:50:35");
+    test1("#showDate", showDate, {year: 1969, month: 7, day: 24, hour: 16, minute: 50, second: 35}, "1969-07-24T16:50:35");
 
     test("#compareInts", compareInts, [0,1], "LT");
     test("#compareInts", compareInts, [1,0], "GT");
